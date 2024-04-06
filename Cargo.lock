@@ -119,12 +119,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "either"
-version = "1.6.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e78d4f1cc4ae33bbfc157ed5d5a5ef3bc29227303d595861deb238fcec4e9457"
-
-[[package]]
 name = "errno"
 version = "0.2.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -229,15 +223,6 @@ dependencies = [
  "libc",
  "match_cfg",
  "winapi",
-]
-
-[[package]]
-name = "itertools"
-version = "0.8.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f56a2d0bc861f9165be4eb3442afd3c236d8a98afd426f65d92324ae1091a484"
-dependencies = [
- "either",
 ]
 
 [[package]]
@@ -388,12 +373,9 @@ dependencies = [
 
 [[package]]
 name = "osstrtools"
-version = "0.2.2"
+version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f328dada9eee3ab878d2d367d8bf323c12b20f881c5566ae6e6708b3862dcaba"
-dependencies = [
- "itertools",
-]
+checksum = "cdac1d82b6d6b98c40fef111c6dedb35c427702a297e828d1812d5629155baf0"
 
 [[package]]
 name = "owned_ttf_parser"

@@ -89,8 +89,8 @@ impl<'a> LoginManager<'a> {
         Self {
             buf: &mut fb.frame,
             device: &fb.device,
-            headline_font: draw::Font::new(&draw::DEJAVUSANS_MONO, 72.0),
-            prompt_font: draw::Font::new(&draw::DEJAVUSANS_MONO, 32.0),
+            headline_font: draw::Font::new(&draw::COMICCODE_REGULAR, 72.0),
+            prompt_font: draw::Font::new(&draw::COMICCODE_REGULAR, 32.0),
             screen_size,
             dimensions,
             mode: Mode::EditingUsername,
